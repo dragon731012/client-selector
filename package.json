@@ -1,0 +1,11 @@
+{
+    "name": "Client Selector",
+    "author": "Potato",
+    "scripts": {
+        "install": "bash install.sh",
+        "build": "node build.mjs"
+    },
+    "dependencies": {
+        "@reinforcezwei/favicon-fetcher": "^1.0.5"
+    }
+}
