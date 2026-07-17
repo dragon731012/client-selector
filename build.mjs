@@ -30,7 +30,7 @@ for (const client of clients) {
 
         publicdata.push({
             "name": client.name,
-            "icon": clientdir + iconname,
+            "icon": clientdir + "/" + iconname,
             "version": client.version,
             "files": newfiles
         });
