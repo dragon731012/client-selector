@@ -2,7 +2,7 @@
     {
         "name": "Tuff Client",
         "files": {
-            "wasm": "https://client.piesmp.ca/files/1_1UT15/WASM/Tuff_Client_Offline_WASM.html"
+            "WASM": "https://client.piesmp.ca/files/1_1UT15/WASM/Tuff_Client_Offline_WASM.html"
         },
         "favicon": "https://www.google.com/favicon.ico",
         "version": "1.12"
@@ -10,7 +10,7 @@
     {
         "name": "Ew resent",
         "files": {
-            "wasm": "https://elite4r.github.io/Resent-Client/game.html"
+            "WASM": "https://elite4r.github.io/Resent-Client/game.html"
         },
         "favicon": "https://www.google.com/favicon.ico",
         "version": "1.12"

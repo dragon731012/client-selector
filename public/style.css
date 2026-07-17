@@ -36,3 +36,30 @@
 .clientversion {
   text-align: center;
 }
+#popup {
+  width: 100vw;
+  height: 100vh;
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  backdrop-filter: blur(8px);
+}
+#popuptitle {
+  font-size: 5vh;
+}
+#popupdescription {
+  font-size: 2.8vh;
+}
+#popupcont {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: baseline;
+  background: #686778;
+  color: lightgray;
+  border-radius: 10px;
+  padding: 2vh;
+}
