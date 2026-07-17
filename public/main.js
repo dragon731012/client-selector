@@ -18,6 +18,7 @@ async function populate() {
 }
 
 function showPopup(client) {
+    document.getElementById("popup").style.pointerEvents = "";
     document.getElementById("popuptitle").innerText = client.name;
     document.getElementById("popupversion").innerText = client.version;
     if (client.description) {
@@ -37,7 +38,18 @@ function showPopup(client) {
             window.location.pathname = client.files[filekey];
         });
     }
+
     document.getElementById("popup").style.display = "";
+    setTimeout(() => {
+        document.getElementById("popup").style.opacity = 1;
+    }, 50);
 }
+
+document.getElementById("popup").addEventListener("click", (e) => {
+    if (document.getElementById("popup").style.opacity == 1 && e.target == e.currentTarget) {
+        document.getElementById("popup").style.opacity = 0;
+        document.getElementById("popup").style.pointerEvents = "none";
+    }
+});
 
 populate();
