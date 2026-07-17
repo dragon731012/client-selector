@@ -78,6 +78,7 @@
   border-radius: 10px;
   margin-top: 3vh;
   transition: 0.5s all;
+  margin-right: 0.6vw;
 }
 .popupbutton:hover {
   background: #919191;
