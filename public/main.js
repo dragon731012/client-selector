@@ -26,6 +26,7 @@ function showPopup(client) {
         document.getElementById("popupdescription").innerText = "";
     }
 
+    document.getElementById("popupbuttons").innerHTML = "";
     for (let filekey of Object.keys(client.files)) {
         let button = document.createElement("button");
         button.className = "popupbutton";
@@ -36,6 +37,7 @@ function showPopup(client) {
             window.location.pathname = client.files[filekey];
         });
     }
+    document.getElementById("popup").style.display = "";
 }
 
 populate();

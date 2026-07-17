@@ -39,6 +39,7 @@
 #popup {
   width: 100vw;
   height: 100vh;
+  transition: 0.5s all;
   position: absolute;
   left: 0px;
   top: 0px;
