@@ -1,8 +1,10 @@
 
 #title {
   text-align: center;
-  font-size: 4vh;
+  font-size: 5vh;
   font-weight: 500;
+  color: lightgray;
+  padding-bottom: 2vh;
 }
 #cont {
   display: flex;
@@ -20,9 +22,10 @@
   cursor: pointer;
   justify-content: center;
   border-radius: 18px;
+  margin: 1vh;
 }
 .clientcont:hover {
-  transform: scale(120%);
+  transform: scale(110%);
 }
 .clienttitle {
   font-size: 3vh;
