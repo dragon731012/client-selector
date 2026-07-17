@@ -2,9 +2,10 @@
     {
         "name": "Tuff Client",
         "files": {
-            "WASM": "https://client.piesmp.ca/files/1_1UT15/WASM/Tuff_Client_Offline_WASM.html"
+            "WASM": "https://test.tuffis.online/files/1_1UT15/WASM/Tuff_Client_Offline_WASM.html",
+            "JS": "https://test.tuffis.online/files/1_1UT15/JS/Tuff_Client_JS.html"
         },
-        "favicon": "https://www.google.com/favicon.ico",
+        "favicon": "https://minecraft.wiki/images/Tuff.png",
         "version": "1.12"
     },
     {
