@@ -10,6 +10,31 @@ async function populate() {
         element.querySelector(".clientimg").src = client.icon;
         element.querySelector(".clientversion").innerText = client.version;
         document.getElementById("cont").appendChild(element);
+        
+        element.addEventListener("click", () => {
+            showPopup(client);
+        });
+    }
+}
+
+function showPopup(client) {
+    document.getElementById("popuptitle").innerText = client.name;
+    document.getElementById("popupversion").innerText = client.version;
+    if (client.description) {
+        document.getElementById("popupdescription").innerText = client.description;
+    } else {
+        document.getElementById("popupdescription").innerText = "";
+    }
+
+    for (let filekey of Object.keys(client.files)) {
+        let button = document.createElement("button");
+        button.className = "popupbutton";
+        button.innerText = filekey;
+        document.getElementById("popupbuttons").appendChild(button);
+
+        button.addEventListener("click", () => {
+            window.location.pathname = client.files[filekey];
+        });
     }
 }
 
