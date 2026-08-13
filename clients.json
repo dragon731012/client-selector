@@ -2,8 +2,8 @@
     {
         "name": "Tuff Client",
         "files": {
-            "WASM": "https://test.tuffis.online/files/1_1UT15/WASM/Tuff_Client_Offline_WASM.html",
-            "JS": "https://test.tuffis.online/files/1_1UT15/JS/Tuff_Client_JS.html"
+            "WASM": "https://beta.tuffclient.com/files/1_1UT15/WASM/Tuff_Client_Offline_WASM.html",
+            "JS": "https://beta.tuffclient.com/files/1_1UT15/JS/Tuff_Client_JS.html"
         },
         "favicon": "https://minecraft.wiki/images/Tuff.png",
         "version": "1.12"
