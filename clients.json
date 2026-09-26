@@ -9,11 +9,11 @@
         "version": "1.12"
     },
     {
-        "name": "Ew resent",
+        "name": "Eaglercraft 1.21.11",
         "files": {
-            "WASM": "https://elite4r.github.io/Resent-Client/game.html"
+            "WASM": "https://novadev.vip/eaglercraft/play-u0-beta.html"
         },
-        "favicon": "https://www.google.com/favicon.ico",
-        "version": "1.12"
+        "favicon": "https://cdn.modrinth.com/data/Gtsn3SWv/c5aa86b883bd7fca9477951afb2dec7791422693.png",
+        "version": "1.21.11"
     }
 ]
