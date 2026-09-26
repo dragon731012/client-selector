@@ -7,13 +7,5 @@
         },
         "favicon": "https://minecraft.wiki/images/Tuff.png",
         "version": "1.12"
-    },
-    {
-        "name": "Eaglercraft 1.21.11",
-        "files": {
-            "WASM": "https://novadev.vip/eaglercraft/play-u0-beta.html"
-        },
-        "favicon": "https://minecraft.wiki/images/Tuff.png",
-        "version": "1.21.11"
     }
 ]
